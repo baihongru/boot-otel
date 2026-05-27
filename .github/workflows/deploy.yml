@@ -9,6 +9,9 @@ on:
   workflow_dispatch:
 
 # 设置 GitHub Actions 的权限
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: read
   pages: write
